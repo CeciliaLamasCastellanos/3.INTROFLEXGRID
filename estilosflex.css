@@ -1,0 +1,89 @@
+.container{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "logo arriba arriba"
+    "centro centro centro"
+    "carrete1 carrete2 carrete3"
+    "abajo abajo abajo";
+}
+.logo{
+    width: auto;
+    height: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-area: logo;
+}
+.arriba{
+    width: auto;
+    height: 250px;
+    display: grid;
+    text-align: end;
+    align-items: flex-end;
+    grid-area: arriba;
+}
+a:link{
+    font-family: Montserrat,sans-serif;
+    color: #643a39;
+    font-size:medium;
+}
+a:hover{
+    color: rgb(255, 157, 71);
+}
+.centro{
+    width: auto;
+    height: 520px;
+    grid-area: centro;
+}
+#titulo{
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold;
+    color: #643a39;
+    font-size: x-large;
+    letter-spacing: .1rem;
+}
+.carrete1{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: #643a39;
+    font-size: medium;
+    letter-spacing: .1rem;
+    margin-top: 60px;
+    grid-area: carrete1;
+}
+.carrete2{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: #643a39;
+    font-size: medium;
+    letter-spacing: .1rem;
+    margin-top: 60px;
+    grid-area: carrete2;
+}
+.carrete3{
+    width: auto;
+    height: 300px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: #643a39;
+    font-size: medium;
+    letter-spacing: .1rem;
+    margin-top: 60px;
+    grid-area: carrete3;
+}
+.abajo{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    color: #ded4c8;
+    font-size: .8rem;
+    margin-top: 100px;
+    letter-spacing: .3rem;
+    grid-area: abajo;
+}
